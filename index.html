@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    
+<!-- Navbar start -->
+
+<header id="navbar" class="fixed top-0 left-0 right-0 z-10 text-white">
+    <nav class="flex justify-between items-center my-container h-24">
+        <!-- logo -->
+         <a href="#" class=" logo text-3xl font-bold hover:text-sky-300">Jahin.</a>
+
+         <!-- desktop menu -->
+          <ul class="md:flex items-center gap-14 hidden">
+            <li>
+                <a href="#home" class="uppercase text-[13px] hover:text-sky-500">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="uppercase text-[13px] hover:text-sky-500">About</a>
+            </li>
+            <li>
+                <a href="#whatido" class="uppercase text-[13px] hover:text-sky-500">What I Do</a>
+            </li>
+            <li>
+                <a href="#works" class="uppercase text-[13px] hover:text-sky-500">Works</a>
+            </li>
+            <li>
+                <a href="#blog" class="uppercase text-[13px] hover:text-sky-500">Blog</a>
+            </li>
+            <li>
+                <a href="#contact" class="uppercase text-[13px] hover:text-sky-500">Contact</a>
+            </li>
+          </ul>
+
+          <!-- hamburger -->
+           <a href="#" id="burger" class="text-2xl hover:text-sky-500 md:hidden">
+            <i class="fa-solid fa-bars"></i>
+           </a>
+    </nav>
+</header>
+
+<!-- mobile menu -->
+
+<ul id="menu" class="flex flex-col items-center justify-center gap-8 md:hidden absolute left-0 top-0 bottom-0 bg-sky-900 w-60 -translate-x-full tarnsition:transform duration-300">
+            <li>
+                <a href="#home" class="uppercase text-[13px] hover:text-white">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="uppercase text-[13px] hover:text-white">About</a>
+            </li>
+            <li>
+                <a href="#whatido" class="uppercase text-[13px] hover:text-white">What I Do</a>
+            </li>
+            <li>
+                <a href="#works" class="uppercase text-[13px] hover:text-white">Works</a>
+            </li>
+            <li>
+                <a href="#blog" class="uppercase text-[13px] hover:text-white">Blog</a>
+            </li>
+            <li>
+                <a href="#contact" class="uppercase text-[13px] hover:text-white">Contact</a>
+            </li>
+          </ul>
+
+<!-- section start -->
+ <main>
+    <!-- hero section -->
+     <section id="home" class=" flex items-center justify-center bg-[url(images/hero-bg-2.png)] bg-center bg-cover h-screen">
+        <div class="my-container">
+            <h1 id="typing" class=" text-7xl md:text-8xl text-sky-500 font-semibold tracking-tighter h-24 md:h-30"></h1>
+            <!-- social icons -->
+             <ul class="flex items-center justify-center gap-8">
+                <li>
+                    <a href="#" class="text-white text-xl hover:text-sky-700">
+                        <i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-xl hover:text-sky-700">
+                        <i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-xl hover:text-sky-700">
+                        <i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-xl hover:text-sky-700">
+                        <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-xl hover:text-sky-700">
+                        <i class="fa-brands fa-youtube"></i></a>
+                </li>
+             </ul>
+        </div>
+     </section>
+
+     <!-- About -->
+      <section class="bg-black">
+        <div id="about" class="my-container sections-pb flex md:flex-row flex-col items-center gap-10">
+            <!-- image -->
+            <img src="images/profile.jpg" class="w-full md:w-1/3 rounded-lg hover:-translate-y-3 tarnsition:transform duration-300">
+
+            <div>
+                <h2 class="text-sky-500 text-4xl/12 md:text-5xl/16 md:max-w-xl">
+                    I'm Jahin Abrar, Web Designer & Web Developer From Bangladesh, khulna.
+                </h2>
+                <p class="text-white mt-8 mb-15 text-sm/7 md:text-base/9">
+                    I have rich experience in web site design & building and customization. Also I am good at html, css, javascript, wordpress, php, jquery, bootstrap. I love to talk with you about our unique approcah. Feel free to contact me writing an email with your project idea.
+                </p>
+                <a href="images/Portfolio.pdf" download="MyPortfolio" class="bg-sky-700 text-sm text-black p-3 tracking-widest hover:bg-sky-500 rounded-lg">Download Resume</a>
+            </div>
+        </div>
+      </section>
+
+      <!-- what i do -->
+       <section id="whatido" class="bg-black">
+      
+
+        <div class="my-container sections-pb">
+            <h3 class="text-4xl text-white">What I Do</h3>
+            <div class="flex md:flex-row flex-col mt-10 gap-14">
+                <div>
+                    <i class="fa-solid fa-layer-group text-4xl text-white"></i>
+                    <h5 class="text-sky-500 text-sm tracking-widest my-3 font-semibold uppercase">UI/UX Design</h5>
+                    <p class="text-white text-sm">
+                        I am a UI/UX designer who creates clean, user-friendly, and engaging digital experiences with a focus on both aesthetics and functionality.
+
+                    </p>
+                </div>
+               <div>
+            <i class="fa-solid fa-lightbulb text-4xl text-white"></i>
+            <h5 class="text-sky-500 text-sm tracking-widest my-3 font-semibold uppercase">Brands Identity</h5>
+            <p class="text-white text-sm">
+                I design unique and consistent brand identities that communicate values, build trust, and create a lasting impression across all platforms.
+
+            </p>
+               </div>
+                 <div>
+            <i class="fa-solid fa-wand-magic-sparkles text-4xl text-white"></i>
+            <h5 class="text-sky-500 text-sm tracking-widest my-3 font-semibold uppercase">Web Design</h5>
+            <p class="text-white text-sm">
+                I create responsive and visually appealing websites that combine modern design with smooth functionality to deliver an engaging user experience.
+
+            </p>
+             </div>
+        </div>
+            <div class="flex md:flex-row flex-col mt-10 gap-14">
+                <div>
+                    <i class="fa-brands fa-android text-4xl text-white"></i>
+                    <h5 class="text-sky-500 text-sm tracking-widest my-3 font-semibold uppercase">Mobile Apps</h5>
+                    <p class="text-white text-sm">
+                        I design intuitive and user-friendly mobile apps that deliver seamless experiences and engaging interfaces across all devices.
+
+                    </p>
+                </div>
+               <div>
+            <i class="fa-solid fa-chart-simple text-4xl text-white"></i>
+            <h5 class="text-sky-500 text-sm tracking-widest my-3 font-semibold uppercase">Analytics</h5>
+            <p class="text-white text-sm">
+                I use analytics to gather insights, track performance, and optimize digital experiences for better user engagement and business growth.
+
+            </p>
+               </div>
+                 <div>
+            <i class="fa-solid fa-camera text-4xl text-white"></i>
+            <h5 class="text-sky-500 text-sm tracking-widest my-3 font-semibold uppercase">Photography</h5>
+            <p class="text-white text-sm">
+                I capture moments through creative photography, blending storytelling with visual aesthetics to create impactful and memorable images.
+
+            </p>
+             </div>
+        </div>
+     </div>
+       
+    
+       </section>
+
+       <!-- Recent Work Section -->
+        <section class="bg-black">
+            <div id="works" class="my-container sections-pb">
+                <h3 class="text-4xl text-white">Recent Works</h3>
+                <div class="flex md:flex-row flex-col gap-14 mt-14">
+                    <a href="#" class="hover:-translate-y-3 tarnsition:transform duration-300">
+                        <img class="rounded-lg" src="images/project1.jpg">
+                    </a>
+                    <a href="#" class="hover:-translate-y-3 tarnsition:transform duration-300">
+                        <img class="rounded-lg" src="images/project2.jpg">
+                    </a>
+                    <a href="#" class="hover:-translate-y-3 tarnsition:transform duration-300">
+                        <img class="rounded-lg" src="images/project3.jpg">
+                    </a>
+                </div>
+                <div class="flex md:flex-row flex-col gap-14 mt-14">
+                    <a href="#" class="hover:-translate-y-3 tarnsition:transform duration-300">
+                        <img class="rounded-lg" src="images/project4.jpg">
+                    </a>
+                    <a href="#" class="hover:-translate-y-3 tarnsition:transform duration-300">
+                        <img class="rounded-lg" src="images/project5.jpg">
+                    </a>
+                    <a href="#" class="hover:-translate-y-3 tarnsition:transform duration-300">
+                        <img class="rounded-lg" src="images/project6.jpg">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Blogs Section -->
+         <section id="blog" class="bg-black">
+            <div class="my-container sections-pb">
+                <h3 class="text-4xl text-white">Latest Blogs</h3>
+                <div class="flex md:flex-row flex-col gap-14 mt-10">
+                    <div>
+                        <img class="rounded-lg" src="images/blog1.jpg">
+                        <h4 class="text-xl text-sky-500 font-semibold mt-8 uppercase">Create a landing page that performs great</h4>
+                        <p class="text-white text-sm/7 mt-3">
+                           I craft high-performing, visually appealing, and user-focused landing pages engineered to drive engagement, capture leads, and significantly boost your conversion rates.
+                        </p>
+                        <div class="mt-10 flex justify-between items-center">
+                            <a href="#" class="bg-sky-700 text-sm text-black p-3 tracking-widest hover:bg-sky-500 rounded-lg">Read More</a>
+                            <span class="text-sm text-gray-400 items-center">January, 28 2025</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="rounded-lg" src="images/blog2.jpg">
+                        <h4 class="text-xl text-sky-500 font-semibold mt-8 uppercase">Starting and growing a career in web design</h4>
+                        <p class="text-white text-sm/7 mt-3">
+                            I am building my career in web design by creating responsive, user-focused websites and continuously growing my skills to deliver modern digital experiences.
+                        </p>
+                        <div class="mt-10 flex justify-between items-center">
+                            <a href="#" class="bg-sky-700 text-sm text-black p-3 tracking-widest hover:bg-sky-500 rounded-lg">Read More</a>
+                            <span class="text-sm text-gray-400 items-center">January, 28 2025</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="rounded-lg" src="images/blog3.jpg">
+                        <h4 class="text-xl text-sky-500 font-semibold mt-8 uppercase">How can designers prepare for the future?</h4>
+                        <p class="text-white text-sm/7 mt-3">
+                           Designers can prepare for the future by staying updated with emerging tools, embracing user-centered and inclusive design, and continuously learning to adapt to evolving digital trends.
+                        </p>
+                        <div class="mt-10 flex justify-between items-center">
+                            <a href="#" class="bg-sky-700 text-sm text-black p-3 tracking-widest hover:bg-sky-500 rounded-lg">Read More</a>
+                            <span class="text-sm text-gray-400 items-center">January, 28 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Contact Section -->
+          <section id="contact" class="bg-black">
+            <div class="my-container sections-pb">
+                <h3 class="text-4xl text-white">Contact Me</h3>
+                <form>
+                    <div class="flex md:flex-row flex-col mt-10 gap-10">
+                        <input type="text" name="name" placeholder="Name" autocomplete="off" class="field flex-1 border-b-2 border-white py-3 placeholder-white caret-white text-sm">
+                        <input type="text" name="number" placeholder="Number" class="field flex-1 border-b-2 border-white py-3 placeholder-white caret-white text-sm">
+                    </div>
+                    <div class="flex md:flex-row flex-col mt-10 gap-10">
+                        <input type="email" name="email" placeholder="Email" autocomplete="off" class="field flex-1 border-b-2 border-white py-3 placeholder-white caret-white text-sm">
+                        <input type="text" name="subject" placeholder="Subject" class="field flex-1 border-b-2 border-white py-3 placeholder-white caret-white text-sm">
+                    </div>
+                    <div class="mt-10">
+                        <textarea name="message" placeholder="Message" class="field resize-none w-full h-32 border-b-2 border-white placeholder-white caret-white text-sm"></textarea>
+                    </div>
+                    <div class="mt-10">
+                       <a href="#" class="bg-sky-700 text-sm text-black p-3 tracking-widest hover:bg-sky-500 rounded-lg">Send Message</a>
+                    </div>
+                </form>
+            </div>
+          </section>
+ </main>
+
+ <!-- footer start -->
+
+  <footer class="bg-black">
+    <div class="flex flex-col items-center justify-center py-15 text-center">
+
+        <!-- social icons -->
+
+        <ul class="flex gap-5">
+                <li class="h-10 w-10 border-2 border-sky-800 rounded-full leading-10 hover:border-sky-400 tarnsition:all duration-300">
+                    <a href="#" class="text-white text-xl">
+                        <i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="h-10 w-10 border-2 border-sky-800 rounded-full leading-10 hover:border-sky-400 tarnsition:all duration-300">
+                    <a href="#" class="text-white text-xl">
+                        <i class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="h-10 w-10 border-2 border-sky-800 rounded-full leading-10 hover:border-sky-400 tarnsition:all duration-300">
+                    <a href="#" class="text-white text-xl">
+                        <i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li class="h-10 w-10 border-2 border-sky-800 rounded-full leading-10 hover:border-sky-400 tarnsition:all duration-300">
+                    <a href="#" class="text-white text-xl">
+                        <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="h-10 w-10 border-2 border-sky-800 rounded-full leading-10 hover:border-sky-400 tarnsition:all duration-300">
+                    <a href="#" class="text-white text-xl">
+                        <i class="fa-brands fa-youtube"></i></a>
+                </li>
+             </ul>
+
+             <div class="mt-5">
+                <p class="text-sm text-gray-500">
+                    &copy;2025 Jahin. all rights reserved
+                </p>
+             </div>
+    </div>
+  </footer>
+
+        <script src="main.js"></script>
+</body>
+</html>
